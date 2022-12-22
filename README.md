@@ -1,5 +1,9 @@
 # pioneer-page
 
+## Build on versel
+
+https://pioneer-page.vercel.app
+
 ## Project setup
 ```
 npm install
@@ -19,6 +23,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
