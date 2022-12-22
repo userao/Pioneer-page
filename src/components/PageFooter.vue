@@ -83,16 +83,15 @@
     margin-right: 100px;
   }
   .company-info li:hover {
-    border-bottom: solid 2px #1AA0FF;
-  }
-  .footer-logo {
-    margin-bottom: 205px;
+    cursor: pointer;
+    text-decoration: underline solid #1AA0FF 2px;
   }
   .social {
     display: flex;
     justify-content: space-between;
   }
   .social-link {
+    cursor: pointer;
     background: none;
     border: none;
   }

@@ -46,7 +46,7 @@
         </div>
       </div>
     </article>
-    <article id="geografy" class="item">
+    <article id="geography" class="item">
       <div class="article-body">
         <div class="article-description">
           <h2>ГЕОГРАФИЯ ПОСТАВОК</h2>
@@ -145,6 +145,13 @@
     font-size: 20px;
     color: #1AA0FF;
   }
+  #production .article-image:hover {
+    cursor: pointer;
+    background-color: rgba(26, 160, 255, 0.1);
+  }
+  #production .article-image:hover p {
+    font-weight: bold;
+  }
   .article-description span {
     font-size: 20px;
     color: #1AA0FF;
@@ -153,6 +160,7 @@
     background: none;
     border: none;
     margin-bottom: 40px;
+    padding-bottom: 5px;
   }
   .download span:after {
     content: "";
@@ -162,13 +170,19 @@
     display: inline-block;
     margin-left: 10px;
   }
+  .download:hover {
+    outline: solid 2px #1AA0FF;
+  }
+  .download:click {
+
+  }
   .article-imageu > p {
     text-align: center;
   }
-  #geografy .article-body {
+  #geography .article-body {
     flex-direction: column;
   }
-  #geografy .article-images {
+  #geography .article-images {
     position: relative;
   }
   #cities {

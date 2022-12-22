@@ -52,6 +52,10 @@
     font-size: 18px;
     color: white;
   }
+  .navbar-item:hover {
+    cursor: pointer;
+    text-decoration: underline solid white 2px;
+  }
   .header-title {
     position: absolute;
     top: 287px;
